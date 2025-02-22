@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Supermarket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">SuperMarket</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="cart-btn">🛒</button> 
+    </header>
+
+    <!-- Cart Sidebar -->
+    <div id="cart-sidebar">
+        <button id="close-cart">❌</button>
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul> 
+        <p>Total: <span id="cart-total">$0.00</span></p>
+    </div>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Fresh Groceries Delivered to Your Doorstep</h1>
+        <p>Shop from a wide range of fresh and quality products.</p>
+        <a href="#shop" class="btn">Shop Now</a>
+    </section>
+    
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product-list">
+                <div class="product">
+                    <img src="images/apple.png" alt="Fresh Apples">
+                    <h3>Fresh Apples</h3>
+                    <p>$3.99 per kg</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/banana.png" alt="Organic Bananas">
+                    <h3>Organic Bananas</h3>
+                    <p>$2.49 per dozen</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/milk.png" alt="Whole Milk">
+                    <h3>Whole Milk</h3>
+                    <p>$4.99 per liter</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/bread.png" alt="Fresh Bread">
+                    <h3>Fresh Bread</h3>
+                    <p>$2.99 per loaf</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/eggs.png" alt="Eggs (12 Pack)">
+                    <h3>Eggs (12 Pack)</h3>
+                    <p>$3.49 per dozen</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/water.png" alt="Bottled Water">
+                    <h3>Bottled Water</h3>
+                    <p>$1.99 per bottle</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/cheese.png" alt="Cheddar Cheese">
+                    <h3>Cheddar Cheese</h3>
+                    <p>$5.99 per pack</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/juice.png" alt="Orange Juice">
+                    <h3>Orange Juice</h3>
+                    <p>$3.99 per liter</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae fugiat saepe error illum voluptates officiis, autem voluptas quibusdam, similique quidem officia quis quo excepturi quas nobis minus nemo, id optio.</p>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>Email: support@supermarket.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Address: 123 Market Street, NY</p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SuperMarket. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
